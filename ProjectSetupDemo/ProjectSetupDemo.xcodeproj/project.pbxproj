@@ -15,6 +15,7 @@
 		DA1F278225AF1FE400CC35A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1F278025AF1FE400CC35A6 /* LaunchScreen.storyboard */; };
 		DA1F278D25AF1FE500CC35A6 /* ProjectSetupDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F278C25AF1FE500CC35A6 /* ProjectSetupDemoTests.swift */; };
 		DA1F279825AF1FE500CC35A6 /* ProjectSetupDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F279725AF1FE500CC35A6 /* ProjectSetupDemoUITests.swift */; };
+		DA1F27FB25AF6BF800CC35A6 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F27FA25AF6BF800CC35A6 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DA1F279325AF1FE500CC35A6 /* ProjectSetupDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectSetupDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1F279725AF1FE500CC35A6 /* ProjectSetupDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSetupDemoUITests.swift; sourceTree = "<group>"; };
 		DA1F279925AF1FE500CC35A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1F27FA25AF6BF800CC35A6 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		DA1F279625AF1FE500CC35A6 /* ProjectSetupDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
+				DA1F27FA25AF6BF800CC35A6 /* SnapshotHelper.swift */,
 				DA1F279725AF1FE500CC35A6 /* ProjectSetupDemoUITests.swift */,
 				DA1F279925AF1FE500CC35A6 /* Info.plist */,
 			);
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1F279825AF1FE500CC35A6 /* ProjectSetupDemoUITests.swift in Sources */,
+				DA1F27FB25AF6BF800CC35A6 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
