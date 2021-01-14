@@ -23,6 +23,10 @@ class ProjectSetupDemoTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
+    func testThatFails() {
+        XCTAssertTrue(false)
+    }
+
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
