@@ -6,4 +6,5 @@ osx_image: xcode12.2
 install:
   - bundle install
 script:
+  - set -o pipefail && xcodebuild -project ProjectSetupDemo.xcodeproj -scheme ProjectSetupDemo -destination platform\=iOS\ Simulator,OS\=13.5,name\=iPhone\ 11 build test | xcpretty
   - fastlane snapshot
